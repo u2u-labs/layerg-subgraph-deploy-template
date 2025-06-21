@@ -1,0 +1,7 @@
+# config.yaml
+
+events:
+  - name: Transfer
+    fields:
+      - from
+      - to
