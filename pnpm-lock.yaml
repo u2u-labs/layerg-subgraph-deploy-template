@@ -26,7 +26,7 @@ importers:
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
-      layerg-graph-7:
+      layerg-graph-9:
         specifier: ^1.0.0
         version: 1.0.0
       pg:
@@ -1331,8 +1331,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  layerg-graph-7@1.0.0:
-    resolution: {integrity: sha512-dJkG46AcYaPX0/FWZwMgy0GPHH0dqtS0F0Dbz0Bv1sXLhV4tcO829rJenVsPa12fFr+egH8voN6MsorgvPSiJQ==}
+  layerg-graph-9@1.0.0:
+    resolution: {integrity: sha512-rbPWFLHjIjCZo1A/l2rfFD16LRq6JdpYJHy3gyGPb4sKsG1CF7AFnkeAQ08VEt3/9h82UyJcEXeZBUPp6posmQ==}
     hasBin: true
 
   lazystream@1.0.1:
@@ -3739,7 +3739,7 @@ snapshots:
 
   json5@2.2.3: {}
 
-  layerg-graph-7@1.0.0:
+  layerg-graph-9@1.0.0:
     dependencies:
       '@types/adm-zip': 0.5.7
       adm-zip: 0.5.16

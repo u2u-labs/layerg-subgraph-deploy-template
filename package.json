@@ -19,7 +19,7 @@
     "express": "^5.1.0",
     "graphql": "^16.11.0",
     "js-yaml": "^4.1.0",
-    "layerg-graph-7": "^1.0.0",
+    "layerg-graph-9": "^1.0.0",
     "pg": "^8.16.0",
     "redis": "^5.5.6"
   },

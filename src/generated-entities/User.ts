@@ -1,5 +1,5 @@
 // Auto-generated entity class for User
-import { set, get, getBy, count, onInsert } from "layerg-graph-7";
+import { set, get, getBy, count } from "layerg-graph-9";
 
 export class User {
   static table = "users";
@@ -28,9 +28,5 @@ export class User {
 
   static async count(where: Partial<User> = {}, chainId: number): Promise<number> {
     return count<User>(User.table + '_' + chainId, where);
-  }
-
-  static onNewRecord(callback: (data: User) => void, chainId: number) {
-    onInsert(User.table + '_' + chainId, (row) => callback(new User(row)));
   }
 }

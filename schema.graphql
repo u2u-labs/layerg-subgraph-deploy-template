@@ -1,12 +1,11 @@
-type User {
-  id: ID
+# schema.graphql
+# ======================================================
+# This schema defines the entities for your Subgraph.
+# It is used to generate entitity files for your Subgraph.
+# ======================================================
+
+type User  {
+  id: ID!
   username: String!
   name: String!
-}
-
-type Post {
-  id: ID
-  title: String!
-  content: String!
-  user: User!
 }
